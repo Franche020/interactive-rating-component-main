@@ -9,11 +9,12 @@ html {
 
 body {
   font-size: 16px;
-  background-color: hsl(216deg, 12%, 8%);
+  background-color: #121417;
   font-family: "Overpass", sans-serif;
 }
 
 .attribution {
+  margin-top: 6rem;
   font-size: 11px;
   text-align: center;
   color: hsl(0deg, 0%, 100%);
@@ -24,10 +25,14 @@ body {
 }
 
 .card {
-  max-width: 37.5rem;
-  background-color: hsl(213deg, 19%, 18%);
+  max-width: 33.75rem;
+  background: linear-gradient(144deg, #1e242f 0%, #1c232d 99%);
   border-radius: 2rem;
-  margin: 0 auto;
+  display: flex;
+}
+
+.contenedor {
+  margin: 2rem;
 }
 
 h1, h2, p {
@@ -39,11 +44,52 @@ li {
   list-style: none;
 }
 
+.invisible {
+  display: none;
+}
+
 .star {
   height: 2rem;
   width: 2rem;
   background-color: hsl(216deg, 12%, 54%);
   background-image: url(/build/img/icon-star.svg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: 1.6rem 1.7rem;
+  background-color: #252d37;
+  padding: 2.5rem;
+  border-radius: 3rem;
+}
+
+.explanation {
+  color: hsl(216deg, 12%, 54%);
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 3rem;
+}
+
+.rating-background {
+  background-color: #252d37;
+  border-radius: 3rem;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buton-submit {
+  background-color: hsl(25deg, 97%, 53%);
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 3rem 0 1rem 0;
+}
+.buton-submit p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
 }

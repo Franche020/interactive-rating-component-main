@@ -1,1 +1,48 @@
 @use '../base/variables' as v;
+
+.star {
+    height: 2rem;
+    width: 2rem;
+    background-color: v.$medium-grey;
+    background-image: url(/build/img/icon-star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.6rem 1.7rem;
+    background-color: v.$dark-blue;
+    padding: 2.5rem;
+    border-radius: 3rem;
+}
+
+.explanation {
+    color: v.$medium-grey;
+}
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 3rem;
+}
+.rating-background{
+    background-color: v.$dark-blue;
+    border-radius: 3rem;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+    }
+}
+
+.buton-submit {
+    background-color: v.$orange;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 3rem 0 1rem 0;
+    p {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        text-transform: capitalize;
+    }
+}

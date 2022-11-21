@@ -16,6 +16,7 @@ body {
 }
 
 .attribution {
+    margin-top: 6rem;
     font-size: 11px;
     text-align: center;
     color: v.$white;
@@ -25,17 +26,23 @@ body {
   }
 
 .card {
-    max-width: v.$mobile;
-    background-color: v.$dark-blue;
+    max-width: calc(v.$mobile * .9);
+    background: linear-gradient(144deg, #1e242f 0%, #1c232d 99%);
     border-radius: 2rem;
-    margin: 0 auto;
+    display: flex;
 }
-
+.contenedor{
+    
+    margin: 2rem;
+}
 h1,h2,p {
     color: white;
 }
 li {
     color: v.$light-grey;
     list-style: none;
+}
+.invisible {
+    display: none;
 }
 
