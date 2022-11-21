@@ -30,7 +30,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    li {
+    cursor: pointer;
+    &:hover{
+        background-color: v.$orange;
+        li{
+            color: v.$white;
+        }
+    }
+}
+.selected-rating{
+    background-color: v.$light-grey;
+    li{
+        color: v.$white,
     }
 }
 
@@ -44,5 +55,12 @@
         padding: 0;
         margin: 0;
         text-transform: capitalize;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: v.$white;
+        p{
+            color: v.$orange;
+        }
     }
 }

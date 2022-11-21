@@ -29,7 +29,7 @@ body {
   background: linear-gradient(144deg, #1e242f 0%, #1c232d 99%);
   border-radius: 2rem;
   display: flex;
-  height: 40.1rem;
+  height: 37.5rem;
   margin: auto;
   position: absolute;
   top: 0;
@@ -44,6 +44,10 @@ body {
 
 h1, h2, p {
   color: white;
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 li {
@@ -87,7 +91,22 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
+.rating-background:hover {
+  background-color: hsl(25deg, 97%, 53%);
+}
+.rating-background:hover li {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.selected-rating {
+  background-color: hsl(217deg, 12%, 63%);
+}
+.selected-rating li {
+  color: hsl(0deg, 0%, 100%);
+}
+
 .buton-submit {
   background-color: hsl(25deg, 97%, 53%);
   padding: 1rem;
@@ -99,4 +118,41 @@ li {
   padding: 0;
   margin: 0;
   text-transform: capitalize;
+}
+.buton-submit:hover {
+  cursor: pointer;
+  background-color: hsl(0deg, 0%, 100%);
+}
+.buton-submit:hover p {
+  color: hsl(25deg, 97%, 53%);
+}
+
+.image-phone {
+  background-image: url(/build/img/illustration-thank-you.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 16.2rem;
+  height: 10.8rem;
+  margin: 2rem auto;
+}
+
+.rating {
+  background-color: #252d37;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 2rem;
+}
+.rating h2 {
+  color: hsl(25deg, 97%, 53%);
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.thanks-state h1 {
+  text-align: center;
+}
+.thanks-state .appreciate {
+  color: hsl(216deg, 12%, 54%);
+  margin: 1rem;
 }

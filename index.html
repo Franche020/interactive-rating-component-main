@@ -28,7 +28,7 @@
   <body>
     <main>
       <div class="card">
-        <section class="normal-state contenedor">
+        <section class="normal-state contenedor ">
           <!-- Rating state start -->
           <div class="star"></div>
 
@@ -40,11 +40,11 @@
           </p>
 
           <ul class="ratings">
-            <div class="rating-background"><li>1</li></div>
-            <div class="rating-background"><li>2</li></div>
-            <div class="rating-background"><li>3</li></div>
-            <div class="rating-background"><li>4</li></div>
-            <div class="rating-background"><li>5</li></div>
+            <a class="rating-background"><li>1</li></a>
+            <a class="rating-background"><li>2</li></a>
+            <a class="rating-background"><li>3</li></a>
+            <a class="rating-background"><li>4</li></a>
+            <a class="rating-background"><li>5</li></a>
           </ul>
 
           <div class="buton-submit">
@@ -52,14 +52,11 @@
           </div>
         </section>
         <!-- Rating state end -->
-        <section class="thanks-state contenedor invisible">
+        <section class="thanks-state contenedor invisible ">
           <!-- Thank you state start -->
-          <div class="selected-rating">
-            <h2>You selected</h2>
-            <div class="rate">
-              <h2></h2>
-              <!-- Add rating here -->
-            </div>
+          <div class="image-phone"></div>
+          <div class="rating">
+            <h2>You selected <span id="rating-value"></span> out of 5</h2>
           </div>
           <h1>Thank you!</h1>
           <p class="appreciate">

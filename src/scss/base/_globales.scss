@@ -30,7 +30,7 @@ body {
     background: linear-gradient(144deg, #1e242f 0%, #1c232d 99%);
     border-radius: 2rem;
     display: flex;
-    height: 40.1rem;
+    height:v.$mobile;
     margin: auto;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
@@ -41,6 +41,9 @@ body {
 }
 h1,h2,p {
     color: white;
+}
+p{
+    font-size: 1.5rem;
 }
 li {
     color: v.$light-grey;
