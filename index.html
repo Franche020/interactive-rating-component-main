@@ -15,58 +15,60 @@
     <title>Frontend Mentor | Interactive rating component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+
+    <link href="/build/css/app.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
-      <section class="normal-state">
-        <!-- Rating state start -->
-        <div class="star"></div>
-
-        <h1>How did we do?</h1>
-
-        <p class="explanation">
-          Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering!
-        </p>
-
-        <ul class="ratings">
-          <li class="buton-rating">1</li>
-          <li class="buton-rating">2</li>
-          <li class="buton-rating">3</li>
-          <li class="buton-rating">4</li>
-          <li class="buton-rating">5</li>
-        </ul>
-
-        <div class="buton-submit">
-          <p>Submit</p>
-        </div>
-      </section>
-      <!-- Rating state end -->
-      <section class="thanks-state">
-        <!-- Thank you state start -->
-        <div class="selected-rating">
-          <h2>You selected</h2>
-          <div class="rate">
-            <h2></h2>
-            <!-- Add rating here -->
+      <div class="card">
+        <section class="normal-state">
+          <!-- Rating state start -->
+          <div class="star"></div>
+  
+          <h1>How did we do?</h1>
+  
+          <p class="explanation">
+            Please let us know how we did with your support request. All feedback
+            is appreciated to help us improve our offering!
+          </p>
+  
+          <ul class="ratings">
+            <li class="buton-rating">1</li>
+            <li class="buton-rating">2</li>
+            <li class="buton-rating">3</li>
+            <li class="buton-rating">4</li>
+            <li class="buton-rating">5</li>
+          </ul>
+  
+          <div class="buton-submit">
+            <p>Submit</p>
           </div>
-        </div>
-        <h1>Thank you!</h1>
-        <p class="appreciate">
-          We appreciate you taking the time to give a rating. If you ever need
-          more support, don’t hesitate to get in touch!
-        </p>
-      </section>
-      <!-- Thank you state end -->
+        </section>
+        <!-- Rating state end -->
+        <section class="thanks-state">
+          <!-- Thank you state start -->
+          <div class="selected-rating">
+            <h2>You selected</h2>
+            <div class="rate">
+              <h2></h2>
+              <!-- Add rating here -->
+            </div>
+          </div>
+          <h1>Thank you!</h1>
+          <p class="appreciate">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </section>
+        <!-- Thank you state end -->
+      </div>
     </main>
 
     <div class="attribution">
@@ -75,5 +77,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+    <script src="/build/js/app.js"></script>
   </body>
 </html>

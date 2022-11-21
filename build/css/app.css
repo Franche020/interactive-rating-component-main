@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box; /*hack par box model*/
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; /*hack par box model*/
+}
+
+body {
+  font-size: 16px;
+  background-color: hsl(216deg, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.card {
+  max-width: 37.5rem;
+  background-color: hsl(213deg, 19%, 18%);
+  border-radius: 2rem;
+  margin: 0 auto;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+li {
+  color: hsl(217deg, 12%, 63%);
+  list-style: none;
+}
+
+.star {
+  height: 2rem;
+  width: 2rem;
+  background-color: hsl(216deg, 12%, 54%);
+  background-image: url(/build/img/icon-star.svg);
+  background-repeat: no-repeat;
+  background-size: 1.6rem 1.7rem;
+}

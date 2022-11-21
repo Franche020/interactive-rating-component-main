@@ -1,0 +1,29 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "FrontEndMentor Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franche020/interactive-rating-component-main.git"
+  },
+  "keywords": [
+    "frontendmentor"
+  ],
+  "author": "Francisco J Casado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franche020/interactive-rating-component-main/issues"
+  },
+  "homepage": "https://github.com/Franche020/interactive-rating-component-main#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "plumber": "^0.4.8",
+    "sass": "^1.56.1"
+  }
+}

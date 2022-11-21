@@ -1,0 +1,41 @@
+@use '../base/variables' as v;
+
+html {
+    box-sizing: border-box; /*hack par box model*/
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit; /*hack par box model*/
+}
+
+body {
+    font-size: 16px;
+    background-color: v.$very-dark-blue;
+    font-family: v.$fuente-principal;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: v.$white;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.card {
+    max-width: v.$mobile;
+    background-color: v.$dark-blue;
+    border-radius: 2rem;
+    margin: 0 auto;
+}
+
+h1,h2,p {
+    color: white;
+}
+li {
+    color: v.$light-grey;
+    list-style: none;
+}
+
