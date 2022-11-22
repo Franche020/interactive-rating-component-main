@@ -14,17 +14,15 @@ body {
     font-size: 16px;
     background-color: v.$very-dark-blue;
     font-family: v.$fuente-principal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
 }
 
-.attribution {
-    margin-top: 6rem;
-    font-size: 11px;
-    text-align: center;
-    color: v.$white;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+
 
 .card {
     max-width: calc(v.$mobile * .9);
@@ -33,8 +31,10 @@ body {
     display: flex;
     height:v.$mobile;
     margin: auto;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
+    justify-content: center;
+    align-items: center;
+    //position: absolute;
+    //top: 0; right: 0; bottom: 0; left: 0;
     @include m.mobile{ 
         max-width: v.$mobile;        
     }
@@ -60,3 +60,12 @@ li {
     display: none;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: v.$white;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+
+  }
