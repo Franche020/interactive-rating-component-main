@@ -1,4 +1,5 @@
 @use '../base/variables' as v;
+@use '../base/mixins' as m;
 
 html {
     box-sizing: border-box; /*hack par box model*/
@@ -34,6 +35,9 @@ body {
     margin: auto;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
+    @include m.mobile{ 
+        max-width: v.$mobile;        
+    }
 }
 .contenedor{
     
@@ -42,6 +46,9 @@ body {
 h1,h2,p {
     color: white;
 }
+// h2 {
+//     letter-spacing: 0.1rem;
+// }
 p{
     font-size: 1.5rem;
 }

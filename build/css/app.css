@@ -37,6 +37,11 @@ body {
   bottom: 0;
   left: 0;
 }
+@media (min-width: 37.5rem) {
+  .card {
+    max-width: 37.5rem;
+  }
+}
 
 .contenedor {
   margin: 2rem;
@@ -91,39 +96,39 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 .rating-background:hover {
-  background-color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
 }
-.rating-background:hover li {
+.rating-background:active {
+  background-color: hsl(25deg, 97%, 53%);
   color: hsl(0deg, 0%, 100%);
 }
 
 .selected-rating {
   background-color: hsl(217deg, 12%, 63%);
-}
-.selected-rating li {
   color: hsl(0deg, 0%, 100%);
 }
 
-.buton-submit {
+.button-submit {
   background-color: hsl(25deg, 97%, 53%);
   padding: 1rem;
   border-radius: 2rem;
   margin: 3rem 0 1rem 0;
 }
-.buton-submit p {
+.button-submit p {
   text-align: center;
   padding: 0;
   margin: 0;
   text-transform: capitalize;
 }
-.buton-submit:hover {
+.button-submit:hover {
   cursor: pointer;
+}
+.button-submit:active {
   background-color: hsl(0deg, 0%, 100%);
 }
-.buton-submit:hover p {
+.button-submit:active p {
   color: hsl(25deg, 97%, 53%);
 }
 
@@ -146,7 +151,7 @@ li {
   color: hsl(25deg, 97%, 53%);
   font-size: 1.5rem;
   font-weight: 400;
-  padding: 1rem;
+  padding: 0.5rem 2rem;
 }
 
 .thanks-state h1 {
@@ -155,4 +160,5 @@ li {
 .thanks-state .appreciate {
   color: hsl(216deg, 12%, 54%);
   margin: 1rem;
+  text-align: center;
 }

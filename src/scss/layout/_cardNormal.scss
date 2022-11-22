@@ -30,22 +30,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    
     &:hover{
+        cursor: pointer;        
+    }
+    &:active {
         background-color: v.$orange;
-        li{
-            color: v.$white;
-        }
+        color: v.$white;
     }
 }
 .selected-rating{
     background-color: v.$light-grey;
-    li{
-        color: v.$white,
-    }
+    color: v.$white,
+
 }
 
-.buton-submit {
+.button-submit {
     background-color: v.$orange;
     padding: 1rem;
     border-radius: 2rem;
@@ -57,7 +57,9 @@
         text-transform: capitalize;
     }
     &:hover {
-        cursor: pointer;
+        cursor: pointer;        
+    }
+    &:active {
         background-color: v.$white;
         p{
             color: v.$orange;
