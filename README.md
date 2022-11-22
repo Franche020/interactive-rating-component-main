@@ -1,5 +1,9 @@
 # Frontend Mentor - Interactive rating component
 
+## Temp Link to git Pages
+
+[code page](https://franche020.github.io/interactive-rating-component-main/)
+
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
