@@ -47,7 +47,7 @@ p {
   font-size: 1.5rem;
 }
 
-input {
+li {
   color: hsl(217deg, 12%, 63%);
 }
 
@@ -103,10 +103,6 @@ input {
 .rating-background:active {
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(0deg, 0%, 100%);
-}
-.rating-background input {
-  width: 5rem;
-  height: 5rem;
 }
 
 .selected-rating {
