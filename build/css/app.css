@@ -15,11 +15,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  min-height: 100vh;
+  user-select: none;
 }
 
 .card {
@@ -50,9 +47,8 @@ p {
   font-size: 1.5rem;
 }
 
-li {
+input {
   color: hsl(217deg, 12%, 63%);
-  list-style: none;
 }
 
 .invisible {
@@ -60,7 +56,7 @@ li {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.1rem;
   text-align: center;
   color: hsl(0deg, 0%, 100%);
 }
@@ -107,6 +103,10 @@ li {
 .rating-background:active {
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(0deg, 0%, 100%);
+}
+.rating-background input {
+  width: 5rem;
+  height: 5rem;
 }
 
 .selected-rating {
